@@ -2,8 +2,8 @@ version: 2
 
 python:
   # Install our python package before building the docs
-    install:
-      - method: pip
+  install:
+    - method: pip
       path: .
       
 build:
